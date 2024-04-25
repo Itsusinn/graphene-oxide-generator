@@ -1,0 +1,22 @@
+[project]
+name = "generator"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "Wu Tongfei", email = "tongfei_wu@hotmail.com" },
+    { name = "Valentina Erastova", email = "valentina.erastova@ed.ac.uk" },
+    { name = "Itsusinn", email = "root@itsusinn.eu.org" },
+]
+dependencies = [
+    "matplotlib>=3.8.4",
+]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[project.scripts]
+"gen" = "generator:main"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
